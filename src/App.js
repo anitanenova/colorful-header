@@ -1,10 +1,12 @@
 import './App.css';
+import Paint from './components/Paint';
 import Playground from './components/Playground';
 
 function App() {
   return (
     <div className="App">
-     <Playground />
+      <Paint /> 
+      {/* <Playground /> */}
     </div>
   );
 }
